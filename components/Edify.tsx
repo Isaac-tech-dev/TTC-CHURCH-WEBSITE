@@ -6,7 +6,7 @@ import Edified from "../public/new/Edified.png";
 function GetEdified() {
   return (
     <div
-      className={`flex xl:flex-row justify-between flex-col px-[20px] py-[100px] space-x-5 bg-[#FFFFFF]`}
+      className={`flex xl:flex-row justify-between flex-col px-[60px] py-[100px] space-x-5 bg-[#FFFFFF]`}
     >
       {/* Left Side */}
       <div
@@ -142,7 +142,7 @@ function GetEdified() {
           {/* Image at the bottom */}
           <Image
             src={Edified}
-            className={`absolute -bottom-48 left-[10%] w-3/4 xl:block hidden`}
+            className={`absolute -bottom-48 left-[15%] w-3/4 xl:block hidden`}
             alt="Background Image"
           />
         </div>

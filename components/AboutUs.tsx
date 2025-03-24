@@ -9,7 +9,7 @@ import About from "../public/new/visionImg.png";
 
 function AboutUs() {
   return (
-    <section className={`flex flex-col md:flex-row items-center justify-between gap-10 px-[20px] md:px-[20px] py-12 bg-[#F8F5F5]`}>
+    <section className={`flex flex-col md:flex-row items-center justify-between gap-10 px-[20px] md:px-[60px] py-12 bg-[#F8F5F5]`}>
       {/* Left Image Section */}
       <div className={`relative flex items-center justify-center`}>
         <Image

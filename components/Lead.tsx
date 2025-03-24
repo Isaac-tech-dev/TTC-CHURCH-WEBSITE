@@ -5,7 +5,7 @@ import PT from "../public/new/PT.png";
 const Lead = () => {
   return (
     <section
-      className={`flex flex-col md:flex-row-reverse items-center justify-between gap-10 px-[20px] md:px-[20px] py-12 bg-[#F8F5F5]`}
+      className={`flex flex-col md:flex-row-reverse items-center justify-between gap-10 px-[20px] md:px-[60px] py-12 bg-[#F8F5F5]`}
     >
       {/* Left Image Section */}
       <div className={`relative flex items-center justify-center`}>

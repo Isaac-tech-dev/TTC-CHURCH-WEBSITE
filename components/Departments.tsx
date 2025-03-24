@@ -51,7 +51,7 @@ const DepartmentCard = ({ title, description, image }: any) => {
 const Departments = () => {
   return (
     <div
-      className={`flex flex-col px-[20px] py-[100px] space-x-5`}
+      className={`flex flex-col px-[60px] py-[100px] space-x-5`}
       style={{ backgroundColor: "rgba(243,243,243,0.70)" }}
     >
       {/* TOP LEFT */}

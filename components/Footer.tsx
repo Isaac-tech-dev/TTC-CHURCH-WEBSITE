@@ -19,7 +19,7 @@ const FooterColumn = ({ title, children }: FooterProps) => {
 
 const Footer = () => {
   return (
-    <footer className={`flexCenter py-[40px] bg-[#262262]`}>
+    <footer className={`flexCenter md:px-[60px] py-[40px] bg-[#262262]`}>
       <div
         className={`padding-container max-container flex w-full flex-col gap-14`}
       >
@@ -84,18 +84,20 @@ const Footer = () => {
 
         {/* SOCIAL LINK */}
         <div className={`flex flex-row items-center justify-between w-full`}>
-          <p className={`text-[14px] text-center text-[#FFFFFF]`}>
+          <p className={`md:text-[14px] text-[12px] text-center text-[#FFFFFF]`}>
             Copyright @ 2025
           </p>
           <div className={`flex flex-col`}>
             <ul className={`text-[14px] flex gap-4 text-gray-30`}>
-              {SOCIALS.links.map((link) => (
+              {SOCIALS.map((link) => (
                 <Link
-                  href={"/"}
-                  key={link}
+                  href={link.url}
+                  key={link.name}
+                  target="_blank" // Open in a new tab
+                  rel="noopener noreferrer" // Security best practice
                   className={`md:w-[37px] w-[30px] md:h-[37px] h-[30px] bg-[#FFFFFF] flex items-center justify-center rounded-full`}
                 >
-                  <Image src={link} alt="logo" width={20} height={20} />
+                  <Image src={link.icon} alt="logo" width={10} height={10} />
                 </Link>
               ))}
             </ul>
