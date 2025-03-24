@@ -87,7 +87,7 @@ export const SOCIALS = [
   },
   {
     name: "Twitter",
-    url: "",
+    url: "https://x.com/ttc_triumphant",
     icon: "/twitter.svg",
   },
   {
