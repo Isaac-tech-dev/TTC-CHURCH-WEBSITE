@@ -45,7 +45,7 @@ function GetEdified() {
           className={`bg-[#D72929] w-[100%] xl:h-[130px] h-[90px] relative rounded-[6px] flex items-center justify-center`}
         >
           <div
-            className={`absolute xl:-bottom-20 -bottom-10 xl:left-[10%] lg:left-[10%] md:left-[10%] flex xl:flex-row lg:flex-row md:flex-row items-center space-x-6 z-0`}
+            className={`absolute xl:-bottom-20 -bottom-7 xl:left-[10%] lg:left-[10%] md:left-[10%] flex xl:flex-row lg:flex-row md:flex-row items-center space-x-6 z-0`}
           >
             {/* Live Stream */}
             <div
