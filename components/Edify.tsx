@@ -6,7 +6,7 @@ import Edified from "../public/new/Edified.png";
 function GetEdified() {
   return (
     <div
-      className={`flex xl:flex-row justify-between flex-col px-[60px] py-[100px] space-x-5 bg-[#FFFFFF]`}
+      className={`flex xl:flex-row justify-between flex-col md:px-[60px] px-[20px] md:py-[100px] py-[50px] md:space-x-5 bg-[#FFFFFF]`}
     >
       {/* Left Side */}
       <div
@@ -18,7 +18,9 @@ function GetEdified() {
         </h2>
 
         <div className={`mt-[20px]`}>
-          <span className={`text-[16px] md:text-[18px] font-regular text-justify`}>
+          <span
+            className={`text-[16px] md:text-[18px] font-regular text-justify`}
+          >
             We are committed to cultivating followers who are firmly rooted in
             the teachings of God's word, demonstrating a vibrant faith that
             yields remarkable outcomes.
@@ -26,7 +28,9 @@ function GetEdified() {
           <br />
           <br />
           <br />
-          <span className={`text-[16px] md:text-[18px] font-regular text-justify`}>
+          <span
+            className={`text-[16px] md:text-[18px] font-regular text-justify`}
+          >
             We are devoted to prayer and fasting, exhibiting both the gifts and
             virtues of the Holy Spirit, engaging in worship, offering reverence
             to God in all aspects of life, and harnessing the divine power
@@ -38,10 +42,10 @@ function GetEdified() {
       {/* Links */}
       <div className={`flex items-center justify-center md:w-[65%]`}>
         <div
-          className={`bg-[#D72929] w-full xl:h-[130px] h-[90px] relative rounded-[6px] flex items-center justify-center`}
+          className={`bg-[#D72929] w-[100%] xl:h-[130px] h-[90px] relative rounded-[6px] flex items-center justify-center`}
         >
           <div
-            className={`absolute xl:-bottom-20 -bottom-10 xl:left-[10%] lg:left-[10%] md:left-[10%] left-[5%] flex xl:flex-row lg:flex-row md:flex-row items-center space-x-6 z-0`}
+            className={`absolute xl:-bottom-20 -bottom-10 xl:left-[10%] lg:left-[10%] md:left-[10%] flex xl:flex-row lg:flex-row md:flex-row items-center space-x-6 z-0`}
           >
             {/* Live Stream */}
             <div
@@ -110,7 +114,7 @@ function GetEdified() {
 
             {/* Audio Sermons */}
             <div
-              className={`flex flex-row items-center justify-center shadow-md rounded-[13px] bg-[#fff] xl:w-[250px] xl:h-[153px] lg:w-[200px] lg:h-[100px] md:w-[150px] md:h-[80px] space-x-4 lg:px-[10px] px-[20px] lg:py-[5px] py-[10px]`}
+              className={`flex flex-row items-center justify-center shadow-md rounded-[13px] bg-[#fff] xl:w-[250px] xl:h-[153px] lg:w-[200px] lg:h-[100px] md:w-[100px] md:h-[80px] space-x-4 lg:px-[10px] px-[20px] lg:py-[5px] py-[10px]`}
             >
               <svg
                 width="33"
