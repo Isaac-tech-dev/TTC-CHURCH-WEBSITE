@@ -5,7 +5,7 @@ import PT from "../../public/new/lead/PT.png";
 const About = () => {
   return (
     <section className={`px-[20px] md:px-[60px] py-[20px] bg-[#000000]`}>
-      <h2 className={`xl:text-[40px] md:hidden text-[20px] text-[#FF0909] font-bold`}>
+      <h2 className={`xl:text-[40px] xl:block md:hidden  text-[20px] text-[#FF0909] font-bold`}>
         MEET THE LEAD
       </h2>
 
