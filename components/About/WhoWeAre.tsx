@@ -8,7 +8,7 @@ const WhoWeAre = () => {
       <div className={`grid grid-cols-1 md:grid-cols-3 gap-6 mt-4`}>
         {/* Column 1 */}
         <div className={`w-full h-full`}>
-          <p className={`md:text-[24px] text-[18px] text-justify leading-[35px] font-normal`}>
+          <p className={`md:text-[24px] text-[18px] leading-[30px] font-normal`}>
             Welcome to <strong>The Triumphant Community</strong>, a family of
             believers passionate about knowing Christ and making Him known.
             Founded on <strong>March 27, 2022</strong>, under the leadership of{" "}
@@ -20,7 +20,7 @@ const WhoWeAre = () => {
 
         {/* Column 2 */}
         <div className={`w-full h-full`}>
-          <p className={`md:text-[24px] text-[18px] text-justify leading-[35px] font-normal`}>
+          <p className={`md:text-[24px] text-[18px] leading-[30px] font-normal`}>
             At <strong>The Triumphant Community</strong>, we believe in the
             transformative power of faith, a faith that leads to signs,
             miracles, and wonders. We are not just a church; we are a family
@@ -32,7 +32,7 @@ const WhoWeAre = () => {
 
         {/* Column 3 */}
         <div className={`w-full h-full`}>
-          <p className={`md:text-[24px] text-[18px] text-justify leading-[35px] font-normal`}>
+          <p className={`md:text-[24px] text-[18px] leading-[30px] font-normal`}>
             We are a people given to prayer and devotion, declaring Jesus on
             every tongue. Our gatherings are a place of encounter, where the
             presence of God is tangible, lives are transformed, and the
