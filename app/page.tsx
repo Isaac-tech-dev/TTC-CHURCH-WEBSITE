@@ -1,14 +1,10 @@
-// import Camp from "@/components/Camp";
-// import Features from "@/components/Features";
-// import GetApp from "@/components/GetApp";
-// import Guide from "@/components/Guide";
-import Hero from "@/components/Hero";
+import Hero from "@/components/Home/Hero";
 import Location from "@/components/Location";
-import AboutUs from "@/components/AboutUs";
-import Lead from "@/components/Lead";
-import GetEdified from "@/components/Edify";
-import NewsLetter from "@/components/NewsLetter";
-import Departments from "@/components/Departments";
+import AboutUs from "@/components/Home/AboutUs";
+import Lead from "@/components/Home/Lead";
+import GetEdified from "@/components/Home/Edify";
+import NewsLetter from "@/components/Home/NewsLetter";
+import Departments from "@/components/Home/Departments";
 
 export default function Home() {
   return (
@@ -16,14 +12,10 @@ export default function Home() {
       <Hero />
       <Location />
       <AboutUs />
-      <Lead/>
-      <GetEdified/>
-      <Departments/>
-      <NewsLetter/>
-      {/* <Camp /> */}
-      {/* <Guide /> */}
-      {/* <Features /> */}
-      {/* <GetApp /> */}
+      <Lead />
+      <GetEdified />
+      <Departments />
+      <NewsLetter />
     </>
   );
 }
