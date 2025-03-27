@@ -5,13 +5,13 @@ import PT from "../../public/new/lead/PT.png";
 const About = () => {
   return (
     <section className={`px-[20px] md:px-[60px] py-[20px] bg-[#000000]`}>
-      <h2 className={`md:text-[40px] text-[20px] text-[#FF0909] font-bold`}>
+      <h2 className={`xl:text-[40px] md:hidden text-[20px] text-[#FF0909] font-bold`}>
         MEET THE LEAD
       </h2>
 
       <div className={`w-full flex flex-col md:flex-row items-center justify-end`}>
         {/* Image Section */}
-        <div className={`md:w-[635px] md:absolute left-[28%] top-[35%] flex items-center justify-center`}>
+        <div className={`xl:w-[635px] md:absolute xl:left-[28%] md:left-[9%] xl:top-[35%] md:top-[22%] flex items-center justify-center`}>
           <Image src={PT} alt="Pastor Tony Abraham" className={`md:w-[451px] w-[50%] md:h-[801px] h-[50%]  object-cover`} />
         </div>
 
