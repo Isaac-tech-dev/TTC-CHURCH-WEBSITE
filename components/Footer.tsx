@@ -85,7 +85,7 @@ const Footer = () => {
         {/* SOCIAL LINK */}
         <div className={`flex flex-row items-center justify-between w-full`}>
           <p className={`md:text-[14px] text-[12px] text-center text-[#FFFFFF]`}>
-            Copyright @ 2025
+            Copyright The Triumphant Community @ 2025
           </p>
           <div className={`flex flex-col`}>
             <ul className={`text-[14px] flex gap-4 text-gray-30`}>
