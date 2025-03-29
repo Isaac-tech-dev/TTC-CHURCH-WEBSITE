@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import CONFESSION from "../../public/new/about/HeroImg2.png";
+import CONFESSION from "../../public/new/about/HeroImg.png";
 
 const Confession = () => {
   return (

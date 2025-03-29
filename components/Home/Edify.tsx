@@ -2,6 +2,7 @@
 "use client";
 import Image from "next/image";
 import Edified from "../../public/new/Edified.png";
+import Link from "next/link";
 
 function GetEdified() {
   return (
@@ -48,8 +49,10 @@ function GetEdified() {
             className={`absolute xl:-bottom-20 -bottom-7 xl:left-[10%] lg:left-[10%] md:left-[10%] flex xl:flex-row lg:flex-row md:flex-row items-center space-x-6 z-0`}
           >
             {/* Live Stream */}
-            <div
-              className={`flex flex-row items-center justify-center shadow-md rounded-[13px] bg-[#fff] xl:w-[250px] xl:h-[153px] lg:w-[200px] lg:h-[100px] md:w-[150px] md:h-[80px] space-x-4 lg:px-[10px] px-[20px] lg:py-[5px] py-[10px]`}
+            <Link
+              className={`flex flex-row items-center justify-center shadow-md rounded-[13px] bg-[#fff] xl:w-[250px] xl:h-[153px] lg:w-[200px] lg:h-[100px] md:w-[150px] md:h-[80px] space-x-4 lg:px-[10px] px-[20px] lg:py-[5px] py-[10px] cursor-pointer`}
+              href={"https://www.youtube.com/@thetriumphantcommunity/streams"}
+              target="_blank"
             >
               <svg
                 width="33"
@@ -76,11 +79,13 @@ function GetEdified() {
                   Stream Messages live!
                 </span>
               </div>
-            </div>
+            </Link>
 
             {/* Video Sermons */}
-            <div
-              className={`flex flex-row items-center justify-center shadow-md rounded-[13px] bg-[#fff] xl:w-[250px] xl:h-[153px] lg:w-[200px] lg:h-[100px] md:w-[150px] md:h-[80px] space-x-4 lg:px-[10px] px-[20px] lg:py-[5px] py-[10px]`}
+            <Link
+              className={`flex flex-row items-center justify-center shadow-md rounded-[13px] bg-[#fff] xl:w-[250px] xl:h-[153px] lg:w-[200px] lg:h-[100px] md:w-[150px] md:h-[80px] space-x-4 lg:px-[10px] px-[20px] lg:py-[5px] py-[10px] cursor-pointer`}
+              href={"https://www.youtube.com/@thetriumphantcommunity/videos"}
+              target="_blank"
             >
               <svg
                 width="43"
@@ -110,11 +115,15 @@ function GetEdified() {
                   Get blessed and edified
                 </span>
               </div>
-            </div>
+            </Link>
 
             {/* Audio Sermons */}
-            <div
-              className={`flex flex-row items-center justify-center shadow-md rounded-[13px] bg-[#fff] xl:w-[250px] xl:h-[153px] lg:w-[200px] lg:h-[100px] md:w-[100px] md:h-[80px] space-x-4 lg:px-[10px] px-[20px] lg:py-[5px] py-[10px]`}
+            <Link
+              className={`flex flex-row items-center justify-center shadow-md rounded-[13px] bg-[#fff] xl:w-[250px] xl:h-[153px] lg:w-[200px] lg:h-[100px] md:w-[100px] md:h-[80px] space-x-4 lg:px-[10px] px-[20px] lg:py-[5px] py-[10px] cursor-pointer`}
+              href={
+                "https://creators.spotify.com/pod/show/thetriumphantcommunity"
+              }
+              target="_blank"
             >
               <svg
                 width="33"
@@ -141,7 +150,7 @@ function GetEdified() {
                   Listen to all PT sermons
                 </span>
               </div>
-            </div>
+            </Link>
           </div>
           {/* Image at the bottom */}
           <Image

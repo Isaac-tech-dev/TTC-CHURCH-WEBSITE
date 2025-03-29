@@ -5,6 +5,7 @@ import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Button from "./Button";
 //import Button from "./Button";
 
 const NavBar = () => {
@@ -37,6 +38,8 @@ const NavBar = () => {
           );
         })}
       </ul>
+      {/* Button */}
+      
 
       {/* Mobile Menu Icon */}
       <Image

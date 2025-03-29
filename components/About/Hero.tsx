@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className={`flex items-center justify-center mt-[90px]`}>
       <Image
-        src={ABOUT1}
+        src={ABOUT2}
         alt={``}
         width={1000}
         height={1000}

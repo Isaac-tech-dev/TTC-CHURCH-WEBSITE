@@ -10,7 +10,7 @@ const Loader = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 5000); // Show loader for 3 seconds
+    }, 3000); // Show loader for 3 seconds
 
     return () => clearTimeout(timer);
   }, []);
@@ -18,7 +18,9 @@ const Loader = () => {
   if (!isLoading) return null; // Hide loader after timeout
 
   return (
-    <div className={`fixed inset-0 flex flex-col items-center justify-center bg-white z-50`}>
+    <div
+      className={`fixed inset-0 flex flex-col items-center justify-center bg-white z-50`}
+    >
       {/* Animated Container */}
       <div className={`flex flex-col items-center`}>
         {/* Logo - Slides in from left & then bounces */}

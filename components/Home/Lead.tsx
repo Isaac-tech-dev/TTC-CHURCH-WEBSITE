@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import PT from "../../public/new/PT.png";
+import Link from "next/link";
 
 const Lead = () => {
   return (
@@ -36,18 +37,20 @@ const Lead = () => {
         <p
           className={`mb-4 md:text-[18px] md:text-justify text-[14px] text-justify w-full`}
         >
-          Pst. Tony Abraham is a graduate of Economics from Covenant University.
-          He went on to obtain a “Master of Business Administration” degree at
-          the University of Lagos. His educational background and knack of
-          business generally have found expression in a couple of private
-          business endeavours of his{" "}
-          <span className={`text-[#F41123]`}>read more...</span>
+          With a heart ablaze for prayer, Pastor Tony is also the convener of
+          Fervour, a powerful prayer meeting where believers gather to seek God,
+          intercede for one another, and witness His miraculous power. Through
+          fervent prayers and intercession, lives have been touched, hearts
+          mended, and testimonies birthed{" "}
+          <Link href="/lead">
+            <span className="text-[#F41123] cursor-pointer">read more...</span>
+          </Link>
         </p>
-        <button
-          className={`bg-[#231F60] text-white md:w-[148px] h-[48px] p-[10px] rounded-[15px] flex items-center justify-center w-full`}
-        >
-          See More
-        </button>
+        <Link href="/lead">
+          <button className="bg-[#231F60] text-white md:w-[148px] h-[48px] p-[10px] rounded-[15px] flex items-center justify-center w-full">
+            See More
+          </button>
+        </Link>
       </div>
     </section>
   );

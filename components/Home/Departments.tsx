@@ -12,14 +12,13 @@ const departments = [
   {
     title: "MEDIA TEAM",
     description:
-      "Tricom Worship is the Worship arm of the Triumphant community",
-    image: "/new/choir.png",
+      "The Media Team enhances worship through technology, sound, and visuals.",
+    image: "/new/media.png",
   },
   {
     title: "USHERING DEPT",
-    description:
-      "Tricom Worship is the Worship arm of the Triumphant community",
-    image: "/new/choir.png",
+    description: "The Ushering Unit welcomes and guides with warmth and order.",
+    image: "/new/ushering.png",
   },
 ];
 
@@ -31,16 +30,22 @@ const DepartmentCard = ({ title, description, image }: any) => {
         width={360}
         height={267}
         alt={title}
-        className={`h-[267px] md:w-[360px] rounded-t-[15px] object-cover`}
+        className={`h-[267px] md:w-[360px] w-full rounded-t-[15px] object-cover`}
         loading="lazy"
         priority={false}
       />
-      <div className={`bg-[#F7BFBF] h-[197px] rounded-b-[15px] flex flex-col px-[20px] py-[20px]`}>
+      <div
+        className={`bg-[#FFF7F7] h-[197px] rounded-b-[15px] flex flex-col px-[20px] py-[20px]`}
+      >
         <div className={`flex flex-col items-center space-y-[10px] mb-[20px]`}>
-          <span className={`text-[24px] text-[#231F60] font-bold`}>{title}</span>
+          <span className={`text-[24px] text-[#231F60] font-bold`}>
+            {title}
+          </span>
           <span className={`text-[16px] text-[#040404]`}>{description}</span>
         </div>
-        <span className={`text-[16px] text-[#F40618] font-medium cursor-pointer`}>
+        <span
+          className={`text-[16px] text-[#F40618] font-medium cursor-pointer`}
+        >
           See More
         </span>
       </div>
@@ -70,7 +75,7 @@ const Departments = () => {
         <span
           className={`md:text-[48px] text-[18px] text-[#231F60] font-bold md:w-full`}
         >
-          OUR MINSTRIES AND DEPARTMENTS
+          OUR SERVICE UNITS
         </span>
       </div>
 

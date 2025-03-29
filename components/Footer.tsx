@@ -33,46 +33,46 @@ const Footer = () => {
           </h2>
           {/* Links */}
           <div className={`flex flex-row items-center space-x-6`}>
-            <div className={`flex flex-row items-center space-x-1`}>
+            <Link href="https://www.youtube.com/@thetriumphantcommunity/featured" target="_blank" className={`flex flex-row items-center space-x-1`}>
               <Image src={Linkk} alt="" className={`md:block hidden`} />
               <p
                 className={`md:text-[13px] text-[10px] font-inter-medium text-[#fff]`}
               >
                 Sermons
               </p>
-            </div>
-            <div className={`flex flex-row items-center space-x-1`}>
+            </Link>
+            <Link href="/give" className={`flex flex-row items-center space-x-1`}>
               <Image src={Linkk} alt="" className={`md:block hidden`} />
               <p
                 className={`md:text-[13px] text-[10px] font-inter-medium text-[#fff]`}
               >
                 Give
               </p>
-            </div>
-            <div className={`flex flex-row items-center space-x-1`}>
+            </Link>
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSd87TjNFuYFYwTbDSZZsIvlXyBcsW74O2EyHFz5xm_X2nZmTw/viewform?usp=sf_link" target="_blank" className={`flex flex-row items-center space-x-1`}>
               <Image src={Linkk} alt="" className={`md:block hidden`} />
               <p
                 className={`md:text-[13px] text-[10px] font-inter-medium text-[#fff]`}
               >
                 First Timers
               </p>
-            </div>
-            <div className={`flex flex-row items-center space-x-1`}>
+            </Link>
+            {/* <Link href="" target="_blank" className={`flex flex-row items-center space-x-1`}>
               <Image src={Linkk} alt="" className={`md:block hidden`} />
               <p
                 className={`md:text-[13px] text-[10px] font-inter-medium text-[#fff]`}
               >
                 Second Timers
               </p>
-            </div>
-            <div className={`flex flex-row items-center space-x-1`}>
+            </Link> */}
+            {/* <Link href="" target="_blank" className={`flex flex-row items-center space-x-1`}>
               <Image src={Linkk} alt="" className={`md:block hidden`} />
               <p
                 className={`md:text-[13px] text-[10px] font-inter-medium text-[#fff]`}
               >
                 Membership class
               </p>
-            </div>
+            </Link> */}
           </div>
         </div>
 
